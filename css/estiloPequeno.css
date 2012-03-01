@@ -1,0 +1,362 @@
+body
+{color:#000
+margin-left:2px;
+margin-top:2px;
+margin-right:2px;
+margin-bottom:0;
+z-index:0;
+overflow-Y: hidden;
+}
+/* TABELA
+	tabela que comporta o conteúdo da home */
+.tabelaHome
+{border:none;
+width:100%;
+height:500px; /* a altura da tabela */
+display:table;
+vertical-align:middle;
+}
+#coluna1TabelaHome
+{top:10%;
+width:30%;
+}
+#coluna2TabelaHome
+{vertical-align:middle;
+width:70%;
+}
+
+.tabela_Foot
+{width:100%;
+font-family: 'Ubuntu', sans-serif;
+font-size:10px;
+}
+#tabela_Foot_coluna1
+{vertical-align:middle;
+text-align:left;
+width:33%;
+}
+#tabela_Foot_coluna2
+{vertical-align:middle;
+text-align:left;
+width:33%;
+}
+#tabela_Foot_coluna3
+{vertical-align:middle;
+text-align:right;
+width:33%;
+}
+#tabela_div_home
+{width:100%;
+border:0;
+}
+#tabela_div_home_titulo
+{text-align:left;
+font-family: 'Ubuntu', sans-serif;
+font-size:24px;
+}
+#tabela_div_subtitulo
+{text-align:center;
+vertical-align:middle;
+font-family: 'Ubuntu', sans-serif;
+font-size:18px;
+height:40px;
+}
+#tabela_div_conteudo
+{line-height:200%;
+text-align:justify;
+font-family: 'Ubuntu', sans-serif;
+font-size:14px;
+}
+#tabela_div_chekin
+{width:20px;
+height:21px;
+margin-right:5px;
+}
+#tabela_div_colaboradores
+{position:absolute;
+font-family: 'Ubuntu', sans-serif;
+font-size:16px;
+color:#F00;
+width:100%;
+z-index:20;
+border:0;
+text-align:center;
+}
+#tabela_div_Materiais_Sim_Nao
+{width:24px;
+}
+#tabela_div_materiais
+{width:100%;
+border:0;
+margin-top:10px;
+}
+/* BOTOES da home */
+#botaoHome 
+{clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_home_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoHome span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_home_p.png) no-repeat;
+background-position: bottom;
+}
+
+#botaoQuemSomos 
+{clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_quemSomos_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoQuemSomos span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_quemSomos_p.png) no-repeat;
+background-position: bottom;
+}
+
+#botaoServicos 
+{clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_servicos_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoServicos span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_servicos_p.png) no-repeat;
+background-position: bottom;
+}
+
+#botaoMateriais 
+{clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_materiais_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoMateriais span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_materiais_p.png) no-repeat;
+background-position: bottom;
+}
+#botaoColaboradores 
+{
+clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_colaboradores_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoColaboradores span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_colaboradores_p.png) no-repeat;
+background-position: bottom;
+}
+#botaoContato
+{clear: both;
+position:relative;
+display:block;
+height: 59px;
+width: 323px;
+margin-left:3px;
+margin-bottom:4px;
+background:url(../imagens/botao_contato_p.png) no-repeat;
+cursor: pointer;
+}
+#botaoContato span.hover {
+position: absolute;
+display: block;
+height: 59px;
+width: 323px;
+background: url(../imagens/botao_contato_p.png) no-repeat;
+background-position: bottom;
+}
+/* IMAGEM usadas na home */
+#imagem_meu_mundo
+{position:absolute;
+left:50%;
+top:25%;
+width:500px;
+height:418px;
+}
+#imagem_logo
+{width:339px;
+height:124px;
+cursor:pointer;
+}
+/* DIVs usadas no sistema */
+#div_load_conteudo
+{position:absolute;
+font-family: 'Ubuntu', sans-serif;
+font-size:16px;
+background-image:url(../imagens/desfoque.png);
+width:100%;
+height:100%;
+z-index:20;
+text-align:center;
+}
+#div_logo
+{z-index:1;
+}
+#div_player
+{position:absolute;
+width:160px;
+height:20px;
+bottom:0px;
+right:0px;
+z-index:23;
+}
+.div_menu
+{margin-bottom:25px;
+background-image:url(../imagens/desfoque.png); /* faz o desfoque para o fundo da div */
+z-index:2;
+position:absolute;
+width:64%;
+left:355px;
+top:110px;
+bottom:20px;
+-moz-border-radius: 5px;	/* suporte do Firefox */
+-webkit-border-radius: 5px;	/* suporte do Chrome e Safira */
+}
+
+#div_foot
+{position:absolute;
+border-top: 1px dashed #FFF;
+margin:0;
+bottom:0;
+left:0;
+z-index:0;
+background-color:#E9E9E9;
+left:0;
+width:100%;
+max-height:20px;
+}
+
+#div_nuvem
+{position:absolute;
+top:0;
+z-index:-1;
+width:100%;
+height:116px;
+}
+/* SPRYTABBLEDPANELS aqui está a configuração responsável pelas tabs dos materiais*/
+.TabbedPanels 
+{font-family: 'Ubuntu', sans-serif;
+margin: 0px;
+padding: 0px;
+float: left;
+clear: none;
+width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+.TabbedPanelsTabGroup {
+margin: 0px;
+padding: 0px;
+font-size:18px;
+}
+.TabbedPanelsTab {
+position: relative;
+top: 1px;
+float: left;
+padding: 4px 10px;
+margin: 0px 1px 0px 0px;
+font: bold 0.7em sans-serif;
+background-color: #DDD;
+list-style: none;
+border-left: solid 1px #CCC;
+border-bottom: solid 1px #999;
+border-top: solid 1px #999;
+border-right: solid 1px #999;
+-moz-user-select: none;
+-khtml-user-select: none;
+cursor: pointer;
+}
+.TabbedPanelsTabHover {
+background-color: #CCC;
+}
+.TabbedPanelsTabSelected {
+background-color: #EEE;
+border-bottom: 1px solid #EEE;
+}
+.TabbedPanelsTab a {
+color: black;
+text-decoration: none;
+}
+
+.TabbedPanelsContentGroup {
+clear: both;
+border-top: solid 1px #999;
+font-family: 'Ubuntu', sans-serif;
+}
+.TabbedPanelsContent {
+padding: 4px;
+}
+.TabbedPanelsContentVisible {
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+float: left;
+width: 10em;
+height: 20em;
+background-color: #EEE;
+position: relative;
+border-top: solid 1px #999;
+border-right: solid 1px #999;
+border-left: solid 1px #CCC;
+border-bottom: solid 1px #CCC;
+}
+.VTabbedPanels .TabbedPanelsTab {
+float: none;
+margin: 0px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+.VTabbedPanels .TabbedPanelsTabSelected {
+background-color: #EEE;
+border-bottom: solid 1px #999;
+}
+.VTabbedPanels .TabbedPanelsContentGroup {
+clear: none;
+float: left;
+padding: 0px;
+width: 30em;
+height: 20em;
+}
